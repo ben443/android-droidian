@@ -22,20 +22,19 @@
            sync-j="4" />
 
   <!-- Hybris repos -->
-  <project path="hybris-patches" name="Halium/hybris-patches" revision="halium-9.0" />
+  <project path="hybris-patches" name="droidian-bionic/hybris-patches" revision="halium-9.0" />
   <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="master" />
   <project path="external/droidmedia" name="sailfishos/droidmedia" revision="4e80b83c04982f09659c7f925f142127727a9b71" />
   <project path="external/audioflingerglue" name="mer-hybris/audioflingerglue" revision="master" />
   <project path="external/busybox" name="mer-hybris/android_external_busybox_prebuilt" revision="master" />
-  <project path="external/gpg" name="ubports/android_external_gpg" revision="halium-9.0"  />
+  <project path="external/gpg" name="droidian-bionic/android_external_gpg" revision="halium-9.0"  />
   <project path="external/selinux_stubs" name="mer-hybris/android_external_selinux_stubs" revision="master" />
-  <project path="halium/biometryd" name="ubports/biometryd" revision="xenial_-_edge_-_android8" />
-  <project path="halium/fake_crypt" name="Halium/fake_crypt" revision="master" />
-  <project path="halium/devices" name="Halium/halium-devices" revision="halium-9.0" />
-  <project path="halium/halium-boot" name="Halium/halium-boot" revision="halium-9.0" />
-  <project path="halium/libhybris" name="Halium/libhybris" revision="halium-9.0" />
-  <project path="halium/platform-api" name="ubports/platform-api" revision="xenial_-_android9"  />
-  <project path="halium/stub_netd" name="Halium/stub_netd" revision="halium-9.0" />
+  <project path="halium/droidian-fpd" name="droidian/droidian-fpd" revision="droidian" />
+  <project path="halium/fake_crypt" name="droidian-bionic/fake_crypt" revision="master" />
+  <project path="halium/devices" name="droidian-bionic/halium-devices" revision="halium-9.0" />
+  <project path="halium/halium-boot" name="droidian-bionic/halium-boot" revision="halium-9.0" />
+  <project path="halium/libhybris" name="droidian/libhybris" revision="halium-9.0" />
+  <project path="halium/stub_netd" name="droidian-bionic/stub_netd" revision="halium-9.0" />
 
   <!-- AOSP Projects -->
 
