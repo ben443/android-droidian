@@ -1,31 +1,22 @@
-Halium
-======
-
-Getting started
----------------
-
-To get started with Halium, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
-
-To initialize your local repository using the Halium trees, use a command like this:
-```
 repo init -u https://github.com/droidian-bionic/android.git -b halium-13.0 --git-lfs
-```
-Then to sync up:
-```
-repo sync
-```
 
-Now to build a system image:
-```
+
+repo sync
+
+
 ./halium/devices/setup "halium_arm64" --force-sync --force-remove-dirty
 
+
 ./hybris-patches/apply-patches.sh --mb
+
 
 export LC_ALL=C
 export USE_CCACHE=1
 source build/envsetup.sh
+
+
 lunch "lineage_halium_arm64-userdebug"
+
 
 time make -j10 e2fsdroid
 time make -j10 systemimage
-```
